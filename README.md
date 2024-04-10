@@ -26,6 +26,7 @@ This script converts all STL files found in a specified directory (and its subdi
 
 - **Blender:** This script is intended to be run within Blender's Python environment.
 - **Python 3.x:** Ensure Blender's Python version matches the script requirements.
+- Setup blender to be recognized from your command line by adding it to your system's environment path.
 
 ## Usage
 
@@ -182,5 +183,5 @@ python urdf_parser.py path/to/robot.urdf path/to/tfs_items.json
 ### Output format:
 The output JSON file will contain two main sections: `tfs` for joint transformations and `items` for link descriptions. Each section includes detailed information such as position, rotation, scale, and color. Rotation data is provided in quaternion format to facilitate usage in 3D environments.
 
-# What next? Go into: the MeshTest directory to test your robot and see if it works. Follow the readme in there!
+# What next? Go into: the MeshTest directory to test your robot and see if it works. Follow the [readme](https://github.com/Wisc-HCI/urdfForRobotScene/blob/main/Mesh-Test/README.md) in there!
 
