@@ -154,7 +154,7 @@ python mesh_lookup_populator.py /path/to/project /path/to/project/robot.urdf
 ```
 You will then find a file named MeshLookup.js at /project/MeshLookup.js
 *Note*: This script is capable of generating both visual and collision Meshes. Simply change line 19 of script to include collisions.
-*WIP*: adding unique names to the imports as several robots will have conflicting names, and collision visual meshes can conflict too.
+*Note*: Names are unique to prevent conflicts when loading in multiple robots.
 
 # urdf_parser.py:Populates a .json file containing all tfs(joints) and items(links) of the robot. 
 This Python script is designed to convert the contents of a Universal Robot Description Format (URDF) file into a structured JSON format. It specifically extracts joint and link information, including positions, rotations (expressed as quaternions), scales, and colors. The script handles URDF properties for dynamic value replacement and supports conversion from Euler angles to quaternions for rotation representation.
@@ -182,7 +182,5 @@ python urdf_parser.py path/to/robot.urdf path/to/tfs_items.json
 ### Output format:
 The output JSON file will contain two main sections: `tfs` for joint transformations and `items` for link descriptions. Each section includes detailed information such as position, rotation, scale, and color. Rotation data is provided in quaternion format to facilitate usage in 3D environments.
 
-# What next? Checkout: https://github.com/wenjielee11/Mesh-Test to test your robot and see if it works.
+# What next? Go into: the MeshTest directory to test your robot and see if it works. Follow the readme in there!
 
-Convert URDFs for use in Robot-Scene
-test

@@ -37,7 +37,7 @@ def scan_and_generate_imports(directory, urdf_directory):
                 for file in files:
                     if file.endswith(".js"):
                         relative_path = os.path.relpath(os.path.join(root, file), directory)
-                        import_name = os.path.splitext(file)[0]
+                        import_name = f"{robot_name}_{subdir_path}_{os.path.splitext(file)[0]}"
                         import_path = f"./MeshLoaders/{directory}/{relative_path}".replace("\\", "/")
                         imports.append(f'import {import_name} from "{import_path}"')
                         # Add to mesh_lookup_dict if the import_name matches any in mesh_filenames
@@ -57,10 +57,11 @@ def scan_and_generate_imports(directory, urdf_directory):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: mesh_lookup_pupolator.py <base_directory containing collision and visual folders> <urdf_directory>")
+        print("Usage: mesh_lookup_populator.py <base_directory containing collision and visual folders> <urdf_directory> <robot_name>")
         sys.exit(1)
     
     directory = sys.argv[1]
     urdf_file = sys.argv[2]
+    robot_name = sys.argv[3]
     scan_and_generate_imports(directory, urdf_file)
 

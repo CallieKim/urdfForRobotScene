@@ -110,7 +110,7 @@ def quaternion_from_euler(ai, aj, ak, axes='sxyz'):
 
     return quaternion
 
-def parse_urdf_for_joints(urdf_content, is_main):
+def parse_urdf_for_joints(urdf_content, is_main, main_file):
     # Parse the URDF XML content
     root = ET.fromstring(urdf_content)
     joints_info = {}
@@ -137,8 +137,8 @@ def parse_urdf_for_joints(urdf_content, is_main):
         if joint.find('origin') is None: 
             continue
         origin =  joint.find('origin').attrib
-        parent = joint.find('parent').get('link')
-        child = joint.find('child').get('link')
+        parent = f"{main_file}_{joint.find('parent').get('link')}"
+        child = f"{main_file}_{joint.find('child').get('link')}"
 
         # Populate the parent_child_map and all_links set
         parents.add(parent)
@@ -184,7 +184,7 @@ def parse_urdf_for_joints(urdf_content, is_main):
             print("base_link identified as: "+ str(base_link))
     return joints_info
 
-def parse_urdf_for_links(urdf_content):
+def parse_urdf_for_links(urdf_content, main_file):
     root = ET.fromstring(urdf_content)
     links = root.findall('.//link')
     materials = root.findall('.//material')
@@ -214,7 +214,7 @@ def parse_urdf_for_links(urdf_content):
 
     
     for link in links:
-        link_name = link.get('name')
+        link_name = f"{main_file}_{link.get('name')}"
         # print(link_name)
         visual = link.find('visual')
         geometry = None
@@ -319,8 +319,8 @@ def main():
                 urdf_content = read_urdf_file(urdf_file_path)
                 
                 # Assuming parse_urdf_for_joints and parse_urdf_for_links are defined
-                joints_info = parse_urdf_for_joints(urdf_content, find_base)
-                links_info = parse_urdf_for_links(urdf_content)
+                joints_info = parse_urdf_for_joints(urdf_content, find_base, main_file)
+                links_info = parse_urdf_for_links(urdf_content, main_file)
 
                 # Merge the current file's joints and links info into the combined dictionaries
                 for key, value in joints_info.items():
