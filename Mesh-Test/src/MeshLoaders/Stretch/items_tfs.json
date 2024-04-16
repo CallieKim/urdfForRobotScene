@@ -1,0 +1,1782 @@
+{
+    "tfs": {
+        "stretch_main.xacro_link_aruco_right_base": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": -0.0015028,
+                "y": -0.1304972,
+                "z": 0.1597482
+            },
+            "rotation": {
+                "w": 0.7071067811865464,
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.7071067811865488
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_aruco_left_base": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": -0.00500000000000014,
+                "y": 0.1304972,
+                "z": 0.1597482
+            },
+            "rotation": {
+                "w": 0.7071067811865464,
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.7071067811865488
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_aruco_shoulder": {
+            "frame": "stretch_main.xacro_link_lift",
+            "position": {
+                "x": -0.0133768876375287,
+                "y": 0.0558540528812078,
+                "z": 0.0861368272417975
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": -7.6999430058852e-30,
+                "y": 1.779812047855825e-15,
+                "z": 1.3704451329677671e-44
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_aruco_top_wrist": {
+            "frame": "stretch_main.xacro_link_arm_l0",
+            "position": {
+                "x": 0.0472500000000019,
+                "y": 0.0292850000000015,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": -1.6992471477591178e-15,
+                "x": 3.9839721955399425e-15,
+                "y": 0.7071067811865488,
+                "z": 0.7071067811865464
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_aruco_inner_wrist": {
+            "frame": "stretch_main.xacro_link_arm_l0",
+            "position": {
+                "x": 0.0472499999999947,
+                "y": -0.0119000000000034,
+                "z": -0.0272499999991938
+            },
+            "rotation": {
+                "w": 2.1168872118154404e-14,
+                "x": 1.6155445744325526e-15,
+                "y": 1.0,
+                "z": 1.6155445744325526e-15
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_base_imu": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": -0.12838,
+                "y": 0.0031592,
+                "z": 0.1474
+            },
+            "rotation": {
+                "w": -2.5973434669646147e-06,
+                "x": -0.707105482506466,
+                "y": 0.7071080798547033,
+                "z": 2.597353007557415e-06
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_wrist_yaw_bottom": {
+            "frame": "stretch_main.xacro_link_wrist_yaw",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": -2.8658015199879145e-15,
+                "x": -0.7071067811865499,
+                "y": -0.7071067811865451,
+                "z": 5.150526567768775e-15
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_wrist_pitch": {
+            "frame": "stretch_main.xacro_link_wrist_yaw_bottom",
+            "position": {
+                "x": 0.0,
+                "y": -0.0195500000000002,
+                "z": -0.0247499999999984
+            },
+            "rotation": {
+                "w": 4.016382376728416e-15,
+                "x": -1.7316573289475715e-15,
+                "y": -0.7071067811865488,
+                "z": -0.7071067811865464
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_wrist_roll": {
+            "frame": "stretch_main.xacro_link_wrist_pitch",
+            "position": {
+                "x": -0.0188587444076125,
+                "y": -0.0239999999998942,
+                "z": 0.01955
+            },
+            "rotation": {
+                "w": 1.1423625238904153e-15,
+                "x": 0.7071067811865464,
+                "y": 1.1423625238904192e-15,
+                "z": -0.7071067811865488
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_straight_gripper": {
+            "frame": "stretch_main.xacro_link_wrist_roll",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0155
+            },
+            "rotation": {
+                "w": 1.6155445744325867e-15,
+                "x": 1.620106272421325e-20,
+                "y": -1.774910863208291e-30,
+                "z": -1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_gripper_finger_right": {
+            "frame": "stretch_main.xacro_link_straight_gripper",
+            "position": {
+                "x": -0.018599,
+                "y": 0.003,
+                "z": 0.033689
+            },
+            "rotation": {
+                "w": 0.4999981633974483,
+                "x": 0.49999999999662686,
+                "y": 0.49999999999662686,
+                "z": -0.5000018366025516
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_gripper_fingertip_right": {
+            "frame": "stretch_main.xacro_link_gripper_finger_right",
+            "position": {
+                "x": -0.190596948563868,
+                "y": -0.015,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.6814459107569965,
+                "x": -0.6814459107569445,
+                "y": -0.1887630014399144,
+                "z": 0.18876300143990363
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_gripper_finger_left": {
+            "frame": "stretch_main.xacro_link_straight_gripper",
+            "position": {
+                "x": 0.018599,
+                "y": 0.003,
+                "z": 0.033689
+            },
+            "rotation": {
+                "w": 0.4999981633974483,
+                "x": 0.49999999999662686,
+                "y": -0.49999999999662686,
+                "z": 0.5000018366025516
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_gripper_fingertip_left": {
+            "frame": "stretch_main.xacro_link_gripper_finger_left",
+            "position": {
+                "x": 0.190596948563868,
+                "y": -0.015,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.1887630014399177,
+                "x": 0.1887630014398989,
+                "y": 0.6814459107569965,
+                "z": 0.6814459107569448
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_grasp_center": {
+            "frame": "stretch_main.xacro_link_straight_gripper",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.23
+            },
+            "rotation": {
+                "w": 0.49999999999999833,
+                "x": -0.5000000000000001,
+                "y": -0.5000000000000001,
+                "z": -0.5000000000000018
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_dry_erase_holder": {
+            "frame": "stretch_main.xacro_link_wrist_yaw",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.038
+            },
+            "rotation": {
+                "w": 2.597348237355357e-06,
+                "x": 0.7071067811817772,
+                "y": -0.7071067811817773,
+                "z": -2.597348237175434e-06
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_dry_erase_marker": {
+            "frame": "stretch_main.xacro_link_dry_erase_holder",
+            "position": {
+                "x": -0.081029,
+                "y": 0.0,
+                "z": 0.025418
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": -2.40915e-17,
+                "y": -1.27225e-16,
+                "z": -1.0614306504108751e-28
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_dry_erase_tip": {
+            "frame": "stretch_main.xacro_link_dry_erase_marker",
+            "position": {
+                "x": 0.005,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811865476,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.7071067811865476
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_gripper": {
+            "frame": "stretch_main.xacro_link_wrist_yaw",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 9.381839456086127e-07,
+                "x": 0.7071054825106139,
+                "y": -0.7071080798588512,
+                "z": -9.381873917569988e-07
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_puller": {
+            "frame": "stretch_main.xacro_link_gripper",
+            "position": {
+                "x": 0.0,
+                "y": 0.07265,
+                "z": -0.0335
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 2.1408500000000087e-15,
+                "y": 5.7909999999999965e-15,
+                "z": -1.5265500000000124e-15
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_laser": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": 0.004,
+                "y": 0.0,
+                "z": 0.1664
+            },
+            "rotation": {
+                "w": -3.673205103346574e-06,
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.9999999999932537
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_right_wheel": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": 0.0,
+                "y": -0.17035,
+                "z": 0.0508
+            },
+            "rotation": {
+                "w": 0.7071054825112363,
+                "x": -0.7071080798594735,
+                "y": 2.798858686461002e-17,
+                "z": 6.193412015458183e-17
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_left_wheel": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.17035,
+                "z": 0.0508
+            },
+            "rotation": {
+                "w": 0.7071054825112363,
+                "x": -0.7071080798594735,
+                "y": 9.333459075478617e-17,
+                "z": 9.27547019154167e-17
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_caster_link": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": -0.245,
+                "y": 0.0,
+                "z": 0.032
+            },
+            "rotation": {
+                "w": 0.7071067811865476,
+                "x": -0.7071067811865476,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_mast": {
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": -0.067,
+                "y": 0.135,
+                "z": 0.0284
+            },
+            "rotation": {
+                "w": 0.7071054825112363,
+                "x": 0.7071080798594735,
+                "y": 1.6972715240866946e-17,
+                "z": 1.6972652896717205e-17
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_lift": {
+            "frame": "stretch_main.xacro_link_mast",
+            "position": {
+                "x": -0.037385,
+                "y": 0.1666,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.4999981633974483,
+                "x": -0.49999999999662686,
+                "y": 0.49999999999662686,
+                "z": 0.5000018366025516
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_arm_l4": {
+            "frame": "stretch_main.xacro_link_lift",
+            "position": {
+                "x": -0.2547,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.4999981633974477,
+                "x": 0.4999999999966275,
+                "y": -0.5000018366025509,
+                "z": -0.4999999999966275
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_arm_l3": {
+            "frame": "stretch_main.xacro_link_arm_l4",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.013
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 3.844156168996925e-30,
+                "y": 1.18358239708046e-30,
+                "z": 1.148263661255715e-17
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_arm_l2": {
+            "frame": "stretch_main.xacro_link_arm_l3",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.013
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 6.563739774393862e-47,
+                "y": 7.88278826723125e-31,
+                "z": -8.32667268468865e-17
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_arm_l1": {
+            "frame": "stretch_main.xacro_link_arm_l2",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0129999999999981
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": -3.81873389373101e-30,
+                "y": -3.944304526105062e-31,
+                "z": 5.5511151231258e-17
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_arm_l0": {
+            "frame": "stretch_main.xacro_link_arm_l1",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.0137499999991968
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 6.315251134194944e-30,
+                "y": -1.90060564432201e-15,
+                "z": 1.31353773883719e-15
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_wrist_yaw": {
+            "frame": "stretch_main.xacro_link_arm_l0",
+            "position": {
+                "x": 0.0830000000000654,
+                "y": -0.0307500000000129,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071054825112363,
+                "x": 0.7071080798594735,
+                "y": 1.5993492010257453e-14,
+                "z": -1.4125724764780423e-14
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_head": {
+            "frame": "stretch_main.xacro_link_mast",
+            "position": {
+                "x": 0.0,
+                "y": 1.33,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": -0.5000018365991804,
+                "x": 0.4999981633940753,
+                "y": 0.5000018365991786,
+                "z": 0.4999981633940736
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_head_pan": {
+            "frame": "stretch_main.xacro_link_head",
+            "position": {
+                "x": 0.135,
+                "y": 0.0731000000000001,
+                "z": -0.00319621125547975
+            },
+            "rotation": {
+                "w": 0.7071067811865464,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.7071067811865488
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_head_tilt": {
+            "frame": "stretch_main.xacro_link_head_pan",
+            "position": {
+                "x": -0.00130000001785262,
+                "y": 0.0277624999926072,
+                "z": -0.0533107920897029
+            },
+            "rotation": {
+                "w": 0.7071067811865464,
+                "x": 0.7071067811865488,
+                "y": 1.1597615639855289e-15,
+                "z": -1.2193646477144618e-15
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_base_link": {
+            "frame": "world",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_respeaker_base": {
+            "frame": "stretch_main.xacro_link_mast",
+            "position": {
+                "x": 0.0,
+                "y": 1.37236408874452,
+                "z": 0.00303065898329655
+            },
+            "rotation": {
+                "w": 0.6644630243886746,
+                "x": -0.6644630243886765,
+                "y": -0.24184476264797278,
+                "z": -0.24184476264797328
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "stretch_main.xacro_link_camera": {
+            "frame": "stretch_main.xacro_link_head_tilt",
+            "position": {
+                "x": 0.02025,
+                "y": -0.03425,
+                "z": 0.0317625
+            },
+            "rotation": {
+                "w": -1.4503002513292787e-10,
+                "x": 0.7071067811140325,
+                "y": -1.4503002516267403e-10,
+                "z": -0.7071067812590626
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "items": {
+        "stretch_main.xacro_link_aruco_right_base": {
+            "shape": "package://stretch_description/meshes/link_aruco_right_base.STL",
+            "name": "stretch_main.xacro_link_aruco_right_base",
+            "frame": "stretch_main.xacro_link_aruco_right_base",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_aruco_left_base": {
+            "shape": "package://stretch_description/meshes/link_aruco_left_base.STL",
+            "name": "stretch_main.xacro_link_aruco_left_base",
+            "frame": "stretch_main.xacro_link_aruco_left_base",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_aruco_shoulder": {
+            "shape": "package://stretch_description/meshes/link_aruco_shoulder.STL",
+            "name": "stretch_main.xacro_link_aruco_shoulder",
+            "frame": "stretch_main.xacro_link_aruco_shoulder",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_aruco_top_wrist": {
+            "shape": "package://stretch_description/meshes/link_aruco_top_wrist.STL",
+            "name": "stretch_main.xacro_link_aruco_top_wrist",
+            "frame": "stretch_main.xacro_link_aruco_top_wrist",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_aruco_inner_wrist": {
+            "shape": "package://stretch_description/meshes/link_aruco_inner_wrist.STL",
+            "name": "stretch_main.xacro_link_aruco_inner_wrist",
+            "frame": "stretch_main.xacro_link_aruco_inner_wrist",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_base_imu": {
+            "shape": "package://stretch_description/meshes/base_imu.STL",
+            "name": "stretch_main.xacro_base_imu",
+            "frame": "stretch_main.xacro_base_imu",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.772549019607843,
+                "b": 0.207843137254902,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_wrist_yaw_bottom": {
+            "shape": "package://stretch_description/meshes/link_wrist_yaw_bottom.STL",
+            "name": "stretch_main.xacro_link_wrist_yaw_bottom",
+            "frame": "stretch_main.xacro_link_wrist_yaw_bottom",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_wrist_pitch": {
+            "shape": "package://stretch_description/meshes/link_wrist_pitch.STL",
+            "name": "stretch_main.xacro_link_wrist_pitch",
+            "frame": "stretch_main.xacro_link_wrist_pitch",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_wrist_roll": {
+            "shape": "package://stretch_description/meshes/link_wrist_roll.STL",
+            "name": "stretch_main.xacro_link_wrist_roll",
+            "frame": "stretch_main.xacro_link_wrist_roll",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_straight_gripper": {
+            "shape": "package://stretch_description/meshes/link_straight_gripper.STL",
+            "name": "stretch_main.xacro_link_straight_gripper",
+            "frame": "stretch_main.xacro_link_straight_gripper",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_gripper_finger_right": {
+            "shape": "package://stretch_description/meshes/link_gripper_finger_right.STL",
+            "name": "stretch_main.xacro_link_gripper_finger_right",
+            "frame": "stretch_main.xacro_link_gripper_finger_right",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_gripper_fingertip_right": {
+            "shape": "package://stretch_description/meshes/link_gripper_fingertip_right.STL",
+            "name": "stretch_main.xacro_link_gripper_fingertip_right",
+            "frame": "stretch_main.xacro_link_gripper_fingertip_right",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.250980392156863,
+                "g": 0.250980392156863,
+                "b": 0.250980392156863,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_gripper_finger_left": {
+            "shape": "package://stretch_description/meshes/link_gripper_finger_left.STL",
+            "name": "stretch_main.xacro_link_gripper_finger_left",
+            "frame": "stretch_main.xacro_link_gripper_finger_left",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 3.141592653589793,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_gripper_fingertip_left": {
+            "shape": "package://stretch_description/meshes/link_gripper_fingertip_left.STL",
+            "name": "stretch_main.xacro_link_gripper_fingertip_left",
+            "frame": "stretch_main.xacro_link_gripper_fingertip_left",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.250980392156863,
+                "g": 0.250980392156863,
+                "b": 0.250980392156863,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_grasp_center": {
+            "shape": null,
+            "name": "stretch_main.xacro_link_grasp_center",
+            "frame": "stretch_main.xacro_link_grasp_center",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_dry_erase_holder": {
+            "shape": "package://stretch_description/meshes/link_dry_erase_holder.STL",
+            "name": "stretch_main.xacro_link_dry_erase_holder",
+            "frame": "stretch_main.xacro_link_dry_erase_holder",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_dry_erase_marker": {
+            "shape": "package://stretch_description/meshes/link_dry_erase_marker.STL",
+            "name": "stretch_main.xacro_link_dry_erase_marker",
+            "frame": "stretch_main.xacro_link_dry_erase_marker",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_dry_erase_tip": {
+            "shape": null,
+            "name": "stretch_main.xacro_link_dry_erase_tip",
+            "frame": "stretch_main.xacro_link_dry_erase_tip",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_gripper": {
+            "shape": "package://stretch_description/meshes/link_gripper.STL",
+            "name": "stretch_main.xacro_link_gripper",
+            "frame": "stretch_main.xacro_link_gripper",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_puller": {
+            "shape": "package://stretch_description/meshes/link_puller.STL",
+            "name": "stretch_main.xacro_link_puller",
+            "frame": "stretch_main.xacro_link_puller",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_laser": {
+            "shape": "package://stretch_description/meshes/laser.STL",
+            "name": "stretch_main.xacro_laser",
+            "frame": "stretch_main.xacro_laser",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.250980392156863,
+                "g": 0.250980392156863,
+                "b": 0.250980392156863,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_base_link": {
+            "shape": "package://stretch_description/meshes/base_link.STL",
+            "name": "stretch_main.xacro_base_link",
+            "frame": "stretch_main.xacro_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_right_wheel": {
+            "shape": "package://stretch_description/meshes/link_right_wheel.STL",
+            "name": "stretch_main.xacro_link_right_wheel",
+            "frame": "stretch_main.xacro_link_right_wheel",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_left_wheel": {
+            "shape": "package://stretch_description/meshes/link_left_wheel.STL",
+            "name": "stretch_main.xacro_link_left_wheel",
+            "frame": "stretch_main.xacro_link_left_wheel",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_caster_link": {
+            "shape": "package://stretch_description/meshes/omni_wheel_m.STL",
+            "name": "stretch_main.xacro_caster_link",
+            "frame": "stretch_main.xacro_caster_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_mast": {
+            "shape": "package://stretch_description/meshes/link_mast.STL",
+            "name": "stretch_main.xacro_link_mast",
+            "frame": "stretch_main.xacro_link_mast",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_lift": {
+            "shape": "package://stretch_description/meshes/link_lift.STL",
+            "name": "stretch_main.xacro_link_lift",
+            "frame": "stretch_main.xacro_link_lift",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_arm_l4": {
+            "shape": "package://stretch_description/meshes/link_arm_l4.STL",
+            "name": "stretch_main.xacro_link_arm_l4",
+            "frame": "stretch_main.xacro_link_arm_l4",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_arm_l3": {
+            "shape": "package://stretch_description/meshes/link_arm_l3.STL",
+            "name": "stretch_main.xacro_link_arm_l3",
+            "frame": "stretch_main.xacro_link_arm_l3",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_arm_l2": {
+            "shape": "package://stretch_description/meshes/link_arm_l2.STL",
+            "name": "stretch_main.xacro_link_arm_l2",
+            "frame": "stretch_main.xacro_link_arm_l2",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_arm_l1": {
+            "shape": "package://stretch_description/meshes/link_arm_l1.STL",
+            "name": "stretch_main.xacro_link_arm_l1",
+            "frame": "stretch_main.xacro_link_arm_l1",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_arm_l0": {
+            "shape": "package://stretch_description/meshes/link_arm_l0.STL",
+            "name": "stretch_main.xacro_link_arm_l0",
+            "frame": "stretch_main.xacro_link_arm_l0",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_wrist_yaw": {
+            "shape": "package://stretch_description/meshes/link_wrist_yaw.STL",
+            "name": "stretch_main.xacro_link_wrist_yaw",
+            "frame": "stretch_main.xacro_link_wrist_yaw",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.898039215686275,
+                "g": 0.917647058823529,
+                "b": 0.929411764705882,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_head": {
+            "shape": "package://stretch_description/meshes/link_head.STL",
+            "name": "stretch_main.xacro_link_head",
+            "frame": "stretch_main.xacro_link_head",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_head_pan": {
+            "shape": "package://stretch_description/meshes/link_head_pan.STL",
+            "name": "stretch_main.xacro_link_head_pan",
+            "frame": "stretch_main.xacro_link_head_pan",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_head_tilt": {
+            "shape": "package://stretch_description/meshes/link_head_tilt.STL",
+            "name": "stretch_main.xacro_link_head_tilt",
+            "frame": "stretch_main.xacro_link_head_tilt",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.792156862745098,
+                "g": 0.819607843137255,
+                "b": 0.933333333333333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_respeaker_base": {
+            "shape": "package://stretch_description/meshes/respeaker_base.STL",
+            "name": "stretch_main.xacro_respeaker_base",
+            "frame": "stretch_main.xacro_respeaker_base",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.79216,
+                "g": 0.81961,
+                "b": 0.93333,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "stretch_main.xacro_link_camera": {
+            "shape": "package://stretch_description_S2.SLDASM/meshes/link_camera.STL",
+            "name": "stretch_main.xacro_link_camera",
+            "frame": "stretch_main.xacro_link_camera",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        }
+    }
+}
