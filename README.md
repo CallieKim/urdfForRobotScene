@@ -18,7 +18,7 @@
 ```      
 At the end of this pipeline, you may remove all .jsx files (NOT .js) and the \meshes folder. Refer back to the example above when you're running the scripts!
 Make sure you run the commands in the order they are described below! 
-More elaborate instructions here: https://docs.google.com/document/d/1uY_VvUoeKeTYmw3gFs3MHQNbhohR8GXxMARiu9CYFX0/edit
+More elaborate instructions in a demo video here: [Link](https://uwprod-my.sharepoint.com/:v:/g/personal/wlee298_wisc_edu/ET1LtzbSipVEnhKxXtsq1q0B2NVH3R4zGWhMTnV3rB9POA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o5vfm6)
 # StlToGlb.py: STL to GLB Converter
 
 This script converts all STL files found in a specified directory (and its subdirectories) to GLB format using Blender's Python API. 
@@ -171,12 +171,13 @@ This Python script is designed to convert the contents of a Universal Robot Desc
 ### Basic Usage:
 To use the script, provide the source URDF file path and the destination JSON file path as command-line arguments:
 ```bash
-python urdf_parser.py <source_urdf_file_path> <destination_json_file>
+python urdf_parser.py <source_urdf_file_path> <destination_json_file> <main_urdf_filename>
 ```
 ### Parameters:
 Parameters
 - `<source_urdf_file_path>`: Path to the URDF file to be parsed.
 - `<destination_json_file>`: Path where the output JSON file will be saved.
+- <main_urdf_file>: name of the main file that would define your robot's base link. The script will compare file names and flag a file if it matches.
 ### Example Command:
 ```bash
 python urdf_parser.py path/to/robot.urdf path/to/tfs_items.json
