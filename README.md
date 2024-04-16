@@ -18,7 +18,7 @@
 ```      
 At the end of this pipeline, you may remove all .jsx files (NOT .js) and the \meshes folder. Refer back to the example above when you're running the scripts!
 Make sure you run the commands in the order they are described below! 
-More elaborate instructions in a demo video here: [Link](https://uwprod-my.sharepoint.com/:v:/g/personal/wlee298_wisc_edu/ET1LtzbSipVEnhKxXtsq1q0B2NVH3R4zGWhMTnV3rB9POA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o5vfm6)
+More elaborate instructions in a demo video here: [Link](https://youtu.be/SR_BdAXCfJw)
 # StlToGlb.py: STL to GLB Converter
 
 This script converts all STL files found in a specified directory (and its subdirectories) to GLB format using Blender's Python API. 
