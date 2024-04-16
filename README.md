@@ -171,12 +171,13 @@ This Python script is designed to convert the contents of a Universal Robot Desc
 ### Basic Usage:
 To use the script, provide the source URDF file path and the destination JSON file path as command-line arguments:
 ```bash
-python urdf_parser.py <source_urdf_file_path> <destination_json_file>
+python urdf_parser.py <source_urdf_file_path> <destination_json_file> <main_urdf_filename>
 ```
 ### Parameters:
 Parameters
 - `<source_urdf_file_path>`: Path to the URDF file to be parsed.
 - `<destination_json_file>`: Path where the output JSON file will be saved.
+- <main_urdf_file>: name of the main file that would define your robot's base link. The script will compare file names and flag a file if it matches.
 ### Example Command:
 ```bash
 python urdf_parser.py path/to/robot.urdf path/to/tfs_items.json
