@@ -138,7 +138,7 @@ Accepts two commands-line arguments:
 
 The command to run the script looks like this:
 ```bash
-python mesh_lookup_populator.py <base_directory> <urdf_file>
+python mesh_lookup_populator.py <base_directory of visual/collision meshes> <base_dir for urdf files> <robot name>
 ```
 ### Example:
 Assuming your directories look like this:
@@ -152,11 +152,11 @@ Assuming your directories look like this:
 ```
 Your command should be:
 ```
-python mesh_lookup_populator.py /path/to/project /path/to/project/robot.urdf
+python mesh_lookup_populator.py /path/to/project/dir_with_visual_collision /path/to/project/sub_dirs_of_urdfs robot_name
 ```
-You will then find a file named MeshLookup.js at /project/MeshLookup.js
+You will then find a file named MeshLookup.js at /path/to/project/dir_with_visual_collision/MeshLookup.js
 *Note*: This script is capable of generating both visual and collision Meshes. Simply change line 19 of script to include collisions.
-*Note*: Names are unique to prevent conflicts when loading in multiple robots.
+*Note*: Names are unique due to robot_name to prevent conflicts when loading in multiple robots.
 
 # urdf_parser.py:Populates a .json file containing all tfs(joints) and items(links) of the robot. 
 This Python script is designed to convert the contents of a Universal Robot Description Format (URDF) file into a structured JSON format. It specifically extracts joint and link information, including positions, rotations (expressed as quaternions), scales, and colors. The script handles URDF properties for dynamic value replacement and supports conversion from Euler angles to quaternions for rotation representation.
