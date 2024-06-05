@@ -34,13 +34,14 @@ function App() {
 
 
   const otherArgs = {
-    displayTfs: true,
+    displayTfs: false,
     displayGrid: true,
     isPolar: false,
     backgroundColor: "#d0d0d0",
     planeColor: "#a8a8a8",
     highlightColor: "#ffffff",
-    plane: -0.75,
+    // robotBase starts at 0,0,0.38
+    plane: 0.0,
     fov: 60,
     ar: false,
     vr: false,

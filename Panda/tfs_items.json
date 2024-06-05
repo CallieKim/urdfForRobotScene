@@ -1,0 +1,546 @@
+{
+    "tfs": {
+        "panda_panda_link1": {
+            "frame": "panda_panda_link0",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.333
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_link2": {
+            "frame": "panda_panda_link1",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811882787,
+                "x": -0.7071067811848163,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_link3": {
+            "frame": "panda_panda_link2",
+            "position": {
+                "x": 0.0,
+                "y": -0.316,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811882787,
+                "x": 0.7071067811848163,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_link4": {
+            "frame": "panda_panda_link3",
+            "position": {
+                "x": 0.0825,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811882787,
+                "x": 0.7071067811848163,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_link5": {
+            "frame": "panda_panda_link4",
+            "position": {
+                "x": -0.0825,
+                "y": 0.384,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811882787,
+                "x": -0.7071067811848163,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_link6": {
+            "frame": "panda_panda_link5",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811882787,
+                "x": 0.7071067811848163,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_link7": {
+            "frame": "panda_panda_link6",
+            "position": {
+                "x": 0.088,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811882787,
+                "x": 0.7071067811848163,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_link8": {
+            "frame": "panda_panda_link7",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.107
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_hand": {
+            "frame": "panda_panda_link8",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.9238795325113726,
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.38268343236488267
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_leftfinger": {
+            "frame": "panda_panda_hand",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0584
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "panda_panda_rightfinger": {
+            "frame": "panda_panda_hand",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0584
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "items": {
+        "panda_panda_link0": {
+            "shape": "package://Panda/meshes/collision/link0.obj",
+            "name": "panda_panda_link0",
+            "frame": "panda_panda_link0",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link1": {
+            "shape": "package://Panda/meshes/collision/link1.obj",
+            "name": "panda_panda_link1",
+            "frame": "panda_panda_link1",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link2": {
+            "shape": "package://Panda/meshes/collision/link2.obj",
+            "name": "panda_panda_link2",
+            "frame": "panda_panda_link2",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link3": {
+            "shape": "package://Panda/meshes/collision/link3.obj",
+            "name": "panda_panda_link3",
+            "frame": "panda_panda_link3",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link4": {
+            "shape": "package://Panda/meshes/collision/link4.obj",
+            "name": "panda_panda_link4",
+            "frame": "panda_panda_link4",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link5": {
+            "shape": "package://Panda/meshes/collision/link5.obj",
+            "name": "panda_panda_link5",
+            "frame": "panda_panda_link5",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link6": {
+            "shape": "package://Panda/meshes/collision/link6.obj",
+            "name": "panda_panda_link6",
+            "frame": "panda_panda_link6",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link7": {
+            "shape": "package://Panda/meshes/collision/link7.obj",
+            "name": "panda_panda_link7",
+            "frame": "panda_panda_link7",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_link8": {
+            "shape": null,
+            "name": "panda_panda_link8",
+            "frame": "panda_panda_link8",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_hand": {
+            "shape": "package://Panda/meshes/collision/hand.obj",
+            "name": "panda_panda_hand",
+            "frame": "panda_panda_hand",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_leftfinger": {
+            "shape": "package://Panda/meshes/collision/finger.obj",
+            "name": "panda_panda_leftfinger",
+            "frame": "panda_panda_leftfinger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "panda_panda_rightfinger": {
+            "shape": "package://Panda/meshes/collision/finger.obj",
+            "name": "panda_panda_rightfinger",
+            "frame": "panda_panda_rightfinger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.14159265359
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        }
+    }
+}
